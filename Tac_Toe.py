@@ -12,7 +12,7 @@ if start==1:
     score = 0                                                                                                   #| score= 0
     def display():                                                                                  
         for row in grid:
-            print(f"---",row)
+            print(row)
     def check_matches():
         global score
         new_score=0
