@@ -5,10 +5,10 @@ if start==1:
     computer_choice = random.choice(computer)                                                                   #| randomly chioce 
     grid = []                                                                                                   #| []
     for i in range(3):                                                                                          #| i= 0 1 2
-        row = []                                                                                                #| row=[]
+        row = []                                                                                                #| row =[]
         for j in range(3):                                                                                      #| j= 0 1 2
-            row.append('')                                                                                      #| row=['']['']['']
-        grid.append(row)                                                                                        #| grid=[['']['']['']]
+            row.append('')                                                                                      #| row =['']['']['']
+        grid.append(row)                                                                                        #| grid =[['']['']['']]
     score = 0                                                                                                   #| score= 0
     def display():                                                                                  
         for row in grid:
@@ -59,3 +59,4 @@ if start==1:
 else:
      print("Invalid")
      
+
