@@ -1,5 +1,5 @@
 import random
-start=int(input("Enter 1 to start Tic Tac Toe: "))
+start= int(input("Enter 1 to start Tic Tac Toe: "))
 if start==1:
     computer = ["❌", "⭕"]                                                                                    #| [x o]
     computer_choice = random.choice(computer)                                                                   #| randomly chioce 
@@ -59,6 +59,7 @@ if start==1:
 else:
      print("Invalid")
      
+
 
 
 
