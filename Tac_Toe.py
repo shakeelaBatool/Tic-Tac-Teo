@@ -15,7 +15,7 @@ if start== 1:
             print(row)
     def check_matches():
         global score
-        new_score=0
+        new_score= 0
         for col in range(3):
             if grid[0][col] != '' and grid[0][col] == grid[1][col] == grid[2][col]:  # check vertically
                 
@@ -59,6 +59,7 @@ if start== 1:
 else:
      print("Invalid")
      
+
 
 
 
