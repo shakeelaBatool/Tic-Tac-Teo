@@ -21,7 +21,7 @@ if start== 1:
                 
                 new_score += 1
         if grid[0][0] != '' and grid[0][0] == grid[1][1] == grid[2][2]:              # check Diagonal
-                new_score += 1
+                new_score +=1
         if grid[0][0]!='' and grid[0][0]== grid[0][1]== grid[0][2]:            
                 new_score+=1
         if grid[1][0]!='' and grid[1][0]== grid[1][1]== grid[1][2]: 
@@ -59,6 +59,7 @@ if start== 1:
 else:
      print("Invalid")
      
+
 
 
 
