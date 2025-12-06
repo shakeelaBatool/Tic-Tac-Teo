@@ -54,11 +54,12 @@ if start== 1:
         else:                                                                                   #| move =1     computer turn
             print("Computer's turn:")
             computer_move()
-    print("Final score:", score)
+    print("Final score:", score😎)
 
 else:
      print("Invalid")
      
+
 
 
 
