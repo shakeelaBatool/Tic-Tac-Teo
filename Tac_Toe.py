@@ -3,7 +3,7 @@ start= int(input("Enter 1 to start Tic Tac Toe: "))
 if start== 1:
     computer =["❌", "⭕"]                                                                                    #| [x o]
     computer_choice =random.choice(computer)                                                                   #| randomly chioce 
-    grid = []                                                                                                   #| [ ]
+    grid =[]                                                                                                   #| [ ]
     for i in range(3):                                                                                          #| i= 0 1 2
         row = []                                                                                                #| row =[]
         for j in range(3):                                                                                      #| j = 0 1 2
@@ -59,6 +59,7 @@ if start== 1:
 else:
      print("Invalid")
      
+
 
 
 
