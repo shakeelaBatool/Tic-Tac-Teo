@@ -1,7 +1,7 @@
 import random
 start= int(input("Enter 1 to start Tic Tac Toe: "))
 if start== 1:
-    computer =["❌", "⭕"]                                                                                    #| [x o]
+    computer = ["❌", "⭕"]                                                                                    #| [x o]
     computer_choice =random.choice(computer)                                                                   #| randomly chioce 
     grid =[]                                                                                                   #| [ ]
     for i in range(3):                                                                                          #| i= 0 1 2
@@ -59,6 +59,7 @@ if start== 1:
 else:
      print("Invalid")
      
+
 
 
 
