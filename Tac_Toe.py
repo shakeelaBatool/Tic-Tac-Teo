@@ -9,7 +9,7 @@ if start== 1:
         for j in range(3):                                                                                      #| j = 0 1 2
             row.append('')                                                                                      #| row = ['']['']['']
         grid.append(row)                                                                                        #| grid =[['']['']['']]
-    score = 0                                                                                                   #| score = 0
+    score =0                                                                                                   #| score = 0
     def display():                                                                                  
         for row in grid:
             print(row)
@@ -59,6 +59,7 @@ if start== 1:
 else:
      print("Invalid")
      
+
 
 
 
